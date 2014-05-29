@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="Bootstrap/Carousel">
+  <template name="bs:carousel" value="&lt;div id=&quot;$id$&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;&#10;  &lt;!-- Indicators --&gt;&#10;  &lt;ol class=&quot;carousel-indicators&quot;&gt;&#10;    &lt;li data-target=&quot;#$id$&quot; data-slide-to=&quot;0&quot; class=&quot;active&quot;&gt;&lt;/li&gt;&#10;    &lt;li data-target=&quot;#$id$&quot; data-slide-to=&quot;1&quot;&gt;&lt;/li&gt;&#10;    &lt;li data-target=&quot;#$id$&quot; data-slide-to=&quot;2&quot;&gt;&lt;/li&gt;&#10;  &lt;/ol&gt;&#10;&#10;  &lt;!-- Wrapper for slides --&gt;&#10;  &lt;div class=&quot;carousel-inner&quot;&gt;&#10;    &lt;div class=&quot;item active&quot;&gt;&#10;      &lt;img src=&quot;$img_src$&quot; alt=&quot;$img_alt$&quot;&gt;&#10;      &lt;div class=&quot;carousel-caption&quot;&gt;&#10;        $content$&#10;      &lt;/div&gt;&#10;    &lt;/div&gt;&#10;    $END$&#10;  &lt;/div&gt;&#10;&#10;  &lt;!-- Controls --&gt;&#10;  &lt;a class=&quot;left carousel-control&quot; href=&quot;#$id$&quot; data-slide=&quot;prev&quot;&gt;&#10;    &lt;span class=&quot;glyphicon glyphicon-chevron-left&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;  &lt;a class=&quot;right carousel-control&quot; href=&quot;#$id$&quot; data-slide=&quot;next&quot;&gt;&#10;    &lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/div&gt;" description="Bootstrap carousel markup" toReformat="false" toShortenFQNames="true">
+    <variable name="id" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="img_src" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="img_alt" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="bs:carousel:indicator" value="&lt;li data-target=&quot;#$id$&quot; data-slide-to=&quot;2&quot;&gt;$END$&lt;/li&gt;" description="Bootstrap carousel indicator markup" toReformat="false" toShortenFQNames="true">
+    <variable name="id" expression="" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="bs:carousel:slide" value="&lt;div class=&quot;carousel-inner&quot;&gt;&#10;    &lt;div class=&quot;item active&quot;&gt;&#10;      &lt;img src=&quot;$img_src$&quot; alt=&quot;$img_alt$&quot;&gt;&#10;      &lt;div class=&quot;carousel-caption&quot;&gt;&#10;        $END$&#10;      &lt;/div&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;" description="Bootstrap carousel indicator markup" toReformat="false" toShortenFQNames="true">
+    <variable name="img_src" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="img_alt" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="bs:carousel:controls" value="&lt;a class=&quot;left carousel-control&quot; href=&quot;#$id$&quot; data-slide=&quot;prev&quot;&gt;&#10;    &lt;span class=&quot;glyphicon glyphicon-chevron-left&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;  &lt;a class=&quot;right carousel-control&quot; href=&quot;#$id$&quot; data-slide=&quot;next&quot;&gt;&#10;    &lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;" description="Boostrap carousel controls markup" toReformat="false" toShortenFQNames="true">
+    <variable name="id" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+</templateSet>
+
