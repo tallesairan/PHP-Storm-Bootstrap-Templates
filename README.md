@@ -17,7 +17,7 @@ Simply clone the project anywhere on your computer and copy the files you need i
 To use them, simply do just like any other live templates, type the abbreviation and press `<tab>`
 
 - Accordions `TODO`
-- [Alerts](doc/Alerts.md)
+- [Alerts](docs/Alerts.md)
 - Badges `TODO`
 - Breadcrumbs `TODO`
 - Button Dropdowns `TODO`
@@ -28,7 +28,7 @@ To use them, simply do just like any other live templates, type the abbreviation
 - Forms `TODO`
 - Helpers `TODO`
 - Icons `TODO`
-- [Imports](doc/Imports.md)
+- [Imports](docs/Imports.md)
 - Input Groups `TODO`
 - Labels `TODO`
 - List Groups `TODO`
