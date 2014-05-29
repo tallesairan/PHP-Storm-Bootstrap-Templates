@@ -5,4 +5,4 @@ If you are tired of refering to the bootstrap website to get the markup and you 
 
 Based on Bootstrap 3.
 
-See [documentation](/wiki)
+See [documentation](https://github.com/foxted/PHP-Storm-Bootstrap-Templates/wiki)
