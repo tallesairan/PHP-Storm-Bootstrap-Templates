@@ -22,7 +22,7 @@ To use them, simply do just like any other live templates, type the abbreviation
 - [Breadcrumbs](docs/Breadcrumbs.md)
 - [Buttons](docs/Buttons.md)
 - [Button Dropdowns](docs/ButtonDropdowns.md)
-- Button Groups `TODO`
+- [Button Groups](docs/ButtonGroups.md)
 - Carousels `TODO`
 - Dropdowns `TODO`
 - Forms `TODO`

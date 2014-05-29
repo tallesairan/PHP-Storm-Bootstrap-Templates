@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="Bootstrap/ButtonGroups">
+  <template name="bs:btn:group" value="&lt;div class=&quot;btn-group&quot;&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;$item_1$&lt;/button&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;$item_2$&lt;/button&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;$item_3$&lt;/button&gt;&#10;&lt;/div&gt;" description="Bootstrap button group" toReformat="false" toShortenFQNames="true">
+    <variable name="item_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="item_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="item_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="bs:btn:group:toolbar" value="&lt;div class=&quot;btn-toolbar&quot; role=&quot;toolbar&quot;&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;$item_1$&lt;/button&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;$item_2$&lt;/button&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;$item_3$&lt;/button&gt;&#10;&lt;/div&gt;" description="Bootstrap button group toolbar" toReformat="false" toShortenFQNames="true">
+    <variable name="item_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="item_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="item_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="bs:btn:group:vertical" value="&lt;div class=&quot;btn-group-vertical&quot;&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;$item_1$&lt;/button&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;$item_2$&lt;/button&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;$item_3$&lt;/button&gt;&#10;&lt;/div&gt;" description="Bootstrap button group vertical" toReformat="false" toShortenFQNames="true">
+    <variable name="item_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="item_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="item_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+</templateSet>
+
