@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="Bootstrap/Accordions">
+  <template name="bs:accordion" value="&lt;div class=&quot;panel-group&quot; id=&quot;accordion&quot;&gt;&#10;    $END$&#10;&lt;/div&gt;" description="Bootstrap accordion container" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="bs:accordion:item:active" value="&lt;div class=&quot;panel panel-default&quot;&gt;&#10;    &lt;div class=&quot;panel-heading&quot;&gt;&#10;      &lt;h4 class=&quot;panel-title&quot;&gt;&#10;        &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#one&quot;&gt;$END$&lt;/a&gt;&#10;      &lt;/h4&gt;&#10;    &lt;/div&gt;&#10;    &lt;div id=&quot;one&quot; class=&quot;panel-collapse collapse in&quot;&gt;&#10;      &lt;div class=&quot;panel-body&quot;&gt;&#10;        ...&#10;      &lt;/div&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;" description="Bootstrap accordion item active markup" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="bs:accordion:item" value="&lt;div class=&quot;panel panel-default&quot;&gt;&#10;    &lt;div class=&quot;panel-heading&quot;&gt;&#10;      &lt;h4 class=&quot;panel-title&quot;&gt;&#10;        &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#two&quot;&gt;$END$&lt;/a&gt;&#10;      &lt;/h4&gt;&#10;    &lt;/div&gt;&#10;    &lt;div id=&quot;two&quot; class=&quot;panel-collapse collapse&quot;&gt;&#10;      &lt;div class=&quot;panel-body&quot;&gt;&#10;        ...&#10;      &lt;/div&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;" description="Bootstrap accordion item markup" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+</templateSet>
+

@@ -16,7 +16,7 @@ Simply clone the project anywhere on your computer and copy the files you need i
 ## Use
 To use them, simply do just like any other live templates, type the abbreviation and press `<tab>`
 
-- Accordions `TODO`
+- [Accordions](docs/Accordions.md)
 - [Alerts](docs/Alerts.md)
 - Badges `TODO`
 - Breadcrumbs `TODO`
