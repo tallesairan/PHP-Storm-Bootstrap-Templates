@@ -19,7 +19,7 @@ To use them, simply do just like any other live templates, type the abbreviation
 - [Accordions](docs/Accordions.md)
 - [Alerts](docs/Alerts.md)
 - [Badges](docs/Badges.md)
-- Breadcrumbs `TODO`
+- [Breadcrumbs](docs/Breadcrumbs.md)
 - Button Dropdowns `TODO`
 - Button Groups `TODO`
 - Buttons `TODO`
