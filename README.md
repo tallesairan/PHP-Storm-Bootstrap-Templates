@@ -1,4 +1,48 @@
-PHP-Storm-Bootstrap-Templates
+PHP Storm Bootstrap Templates
 =============================
 
-PHP Storm Bootstrap Live Templates
+If you are tired of refering to the bootstrap website to get the markup and you are using PHP Storm, this package is for you !
+
+Based on Bootstrap 3.
+
+## Installation
+
+Simply clone the project anywhere on your computer and copy the files you need in the folder : 
+
+`~/Library/Preferences/WebIdeXX/templates`
+
+*`XX` depends on your version number.  For PHP Storm 7, the folder should be `WebIde70`*
+
+## Use
+To use them, simply do just like any other live templates, type the abbreviation and press `<tab>`
+
+- Accordions `TODO`
+- [Alerts](doc/Alerts.md)
+- Badges `TODO`
+- Breadcrumbs `TODO`
+- Button Dropdowns `TODO`
+- Button Groups `TODO`
+- Buttons `TODO`
+- Carousels `TODO`
+- Dropdowns `TODO`
+- Forms `TODO`
+- Helpers `TODO`
+- Icons `TODO`
+- [Imports](doc/Imports.md)
+- Input Groups `TODO`
+- Labels `TODO`
+- List Groups `TODO`
+- Media `TODO`
+- Modals `TODO`
+- Navbars `TODO`
+- Navs `TODO`
+- Page Headers `TODO`
+- Pagination `TODO`
+- Panels `TODO`
+- Popovers `TODO`
+- Progress Bars `TODO`
+- Tables `TODO`
+- Tabs `TODO`
+- Text `TODO`
+- Tooltips `TODO`
+- Wells `TODO`
