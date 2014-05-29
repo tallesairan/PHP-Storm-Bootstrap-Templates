@@ -20,9 +20,9 @@ To use them, simply do just like any other live templates, type the abbreviation
 - [Alerts](docs/Alerts.md)
 - [Badges](docs/Badges.md)
 - [Breadcrumbs](docs/Breadcrumbs.md)
+- [Buttons](docs/Buttons.md)
 - Button Dropdowns `TODO`
 - Button Groups `TODO`
-- Buttons `TODO`
 - Carousels `TODO`
 - Dropdowns `TODO`
 - Forms `TODO`
