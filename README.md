@@ -18,7 +18,7 @@ To use them, simply do just like any other live templates, type the abbreviation
 
 - [Accordions](docs/Accordions.md)
 - [Alerts](docs/Alerts.md)
-- Badges `TODO`
+- [Badges](docs/Badges.md)
 - Breadcrumbs `TODO`
 - Button Dropdowns `TODO`
 - Button Groups `TODO`
@@ -30,6 +30,7 @@ To use them, simply do just like any other live templates, type the abbreviation
 - Icons `TODO`
 - [Imports](docs/Imports.md)
 - Input Groups `TODO`
+- Jumbotron `TODO`
 - Labels `TODO`
 - List Groups `TODO`
 - Media `TODO`
