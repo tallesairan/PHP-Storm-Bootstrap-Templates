@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="Bootstrap/Helpers">
+  <template name="bs:text:muted" value="&lt;p class=&quot;text-muted&quot;&gt;$END$&lt;/p&gt;" description="Bootstrap text muted" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:text:primary" value="&lt;p class=&quot;text-primary&quot;&gt;$END$&lt;/p&gt;" description="Bootstrap text primary" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:text:success" value="&lt;p class=&quot;text-success&quot;&gt;$END$&lt;/p&gt;" description="Bootstrap text success" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:text:info" value="&lt;p class=&quot;text-info&quot;&gt;$END$&lt;/p&gt;" description="Bootstrap text info" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:text:warning" value="&lt;p class=&quot;text-warning&quot;&gt;$END$&lt;/p&gt;" description="Bootstrap text warning" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:text:danger" value="&lt;p class=&quot;text-danger&quot;&gt;$END$&lt;/p&gt;" description="Bootstrap text danger" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:bg:primary" value="&lt;p class=&quot;bg-primary&quot;&gt;$END$&lt;/p&gt;" description="Bootstrap contextuel background primary" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:bg:success" value="&lt;p class=&quot;bg-success&quot;&gt;$END$&lt;/p&gt;" description="Bootstrap contextuel background success" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:bg:info" value="&lt;p class=&quot;bg-info&quot;&gt;$END$&lt;/p&gt;" description="Bootstrap contextuel background info" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:bg:warning" value="&lt;p class=&quot;bg-warning&quot;&gt;$END$&lt;/p&gt;" description="Bootstrap contextuel background warning" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:bg:danger" value="&lt;p class=&quot;bg-danger&quot;&gt;$END$&lt;/p&gt;" description="Bootstrap contextuel background danger" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:close" value="&lt;button type=&quot;button&quot; class=&quot;close&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&lt;span class=&quot;sr-only&quot;&gt;Close&lt;/span&gt;&lt;/button&gt;" description="Bootstrap close button" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:caret" value="&lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;" description="Bootstrap caret icon" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:pull:left" value="&lt;div class=&quot;pull-left&quot;&gt;$END$&lt;/div&gt;" description="Bootstrap pull left div" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:pull:right" value="&lt;div class=&quot;pull-right&quot;&gt;$END$&lt;/div&gt;" description="Bootstrap pull right div" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
+
