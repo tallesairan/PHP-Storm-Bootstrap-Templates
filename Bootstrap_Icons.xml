@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="Bootstrap/Icons">
+  <template name="bs:icon" value="&lt;span class=&quot;glyphicon glyphicon-$icon$&quot;&gt;&lt;/span&gt;" description="Boostrap icons" toReformat="false" toShortenFQNames="true">
+    <variable name="icon" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
+

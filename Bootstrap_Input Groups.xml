@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="Bootstrap/Input Groups">
+  <template name="bs:igroup:left" value="&lt;div class=&quot;input-group&quot;&gt;&#10;  &lt;span class=&quot;input-group-addon&quot;&gt;$sign$&lt;/span&gt;&#10;  &lt;input type=&quot;$field$&quot; class=&quot;form-control&quot; placeholder=&quot;$placeholder$&quot;&gt;&#10;&lt;/div&gt;" description="Bootstrap input group left" toReformat="false" toShortenFQNames="true">
+    <variable name="sign" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="field" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="placeholder" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:igroup:right" value="&lt;div class=&quot;input-group&quot;&gt;  &#10;  &lt;input type=&quot;$field$&quot; class=&quot;form-control&quot; placeholder=&quot;$placeholder$&quot;&gt;&#10;  &lt;span class=&quot;input-group-addon&quot;&gt;$sign$&lt;/span&gt;&#10;&lt;/div&gt;" description="Bootstrap input group right" toReformat="false" toShortenFQNames="true">
+    <variable name="sign" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="field" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="placeholder" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:igroup:both" value="&lt;div class=&quot;input-group&quot;&gt;  &#10;    &lt;span class=&quot;input-group-addon&quot;&gt;$leftsign$&lt;/span&gt;&#10;    &lt;input type=&quot;$field$&quot; class=&quot;form-control&quot; placeholder=&quot;$placeholder$&quot;&gt;&#10;    &lt;span class=&quot;input-group-addon&quot;&gt;$rightsign$&lt;/span&gt;&#10;&lt;/div&gt;" description="Bootstrap input group both sides" toReformat="false" toShortenFQNames="true">
+    <variable name="leftsign" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="field" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="placeholder" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="rightsign" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:igroup:checkbox" value="&lt;div class=&quot;input-group&quot;&gt;&#10;      &lt;span class=&quot;input-group-addon&quot;&gt;&#10;        &lt;input type=&quot;checkbox&quot;&gt;&#10;      &lt;/span&gt;&#10;      &lt;input type=&quot;text&quot; class=&quot;form-control&quot;&gt;&#10;    &lt;/div&gt;" description="Bootstrap input group checkbox" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:igroup:radio" value="&lt;div class=&quot;input-group&quot;&gt;&#10;      &lt;span class=&quot;input-group-addon&quot;&gt;&#10;        &lt;input type=&quot;radio&quot;&gt;&#10;      &lt;/span&gt;&#10;      &lt;input type=&quot;text&quot; class=&quot;form-control&quot;&gt;&#10;    &lt;/div&gt;" description="Bootstrap input group radio" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:igroup:btn:left" value="&lt;div class=&quot;input-group&quot;&gt;&#10;      &lt;span class=&quot;input-group-btn&quot;&gt;&#10;        &lt;button class=&quot;btn btn-default&quot; type=&quot;button&quot;&gt;$END$&lt;/button&gt;&#10;      &lt;/span&gt;&#10;      &lt;input type=&quot;text&quot; class=&quot;form-control&quot;&gt;&#10;    &lt;/div&gt;" description="Bootstrap input group button on the left" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:igroup:btn:right" value="&lt;div class=&quot;input-group&quot;&gt;&#10;      &lt;input type=&quot;text&quot; class=&quot;form-control&quot;&gt;&#10;      &lt;span class=&quot;input-group-btn&quot;&gt;&#10;        &lt;button class=&quot;btn btn-default&quot; type=&quot;button&quot;&gt;$END$&lt;/button&gt;&#10;      &lt;/span&gt;&#10;    &lt;/div&gt;" description="Bootstrap input group button on the right" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:igroup:dropdown:left" value="&lt;div class=&quot;input-group&quot;&gt;&#10;      &lt;div class=&quot;input-group-btn&quot;&gt;&#10;        &lt;button type=&quot;button&quot; class=&quot;btn btn-default dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;$label$ &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;&lt;/button&gt;&#10;        &lt;ul class=&quot;dropdown-menu&quot; role=&quot;menu&quot;&gt;&#10;          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$END$&lt;/a&gt;&lt;/li&gt;&#10;        &lt;/ul&gt;&#10;      &lt;/div&gt;&#10;      &lt;input type=&quot;text&quot; class=&quot;form-control&quot;&gt;&#10;    &lt;/div&gt;" description="Bootstrap input group dropdown on the left" toReformat="false" toShortenFQNames="true">
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:igroup:dropdown:right" value="&lt;input type=&quot;text&quot; class=&quot;form-control&quot;&gt;&#10;      &lt;div class=&quot;input-group-btn&quot;&gt;&#10;        &lt;button type=&quot;button&quot; class=&quot;btn btn-default dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;$label$ &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;&lt;/button&gt;&#10;        &lt;ul class=&quot;dropdown-menu dropdown-menu-right&quot; role=&quot;menu&quot;&gt;&#10;          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$END$&lt;/a&gt;&lt;/li&gt;&#10;        &lt;/ul&gt;&#10;      &lt;/div&gt;&#10;    &lt;/div&gt;" description="Bootstrap input group dropdown on the right" toReformat="false" toShortenFQNames="true">
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:igroup:seg:left" value="&lt;div class=&quot;input-group&quot;&gt;&#10;  &lt;div class=&quot;input-group-btn&quot;&gt;&#10;    $END$&#10;  &lt;/div&gt;&#10;  &lt;input type=&quot;text&quot; class=&quot;form-control&quot;&gt;&#10;&lt;/div&gt;&#10;" description="Bootstrap segmented button field left" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:igroup:seg:right" value="&lt;div class=&quot;input-group&quot;&gt;&#10;  &lt;input type=&quot;text&quot; class=&quot;form-control&quot;&gt;&#10;  &lt;div class=&quot;input-group-btn&quot;&gt;&#10;    $END$&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Bootstrap segmented button field right" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
+
