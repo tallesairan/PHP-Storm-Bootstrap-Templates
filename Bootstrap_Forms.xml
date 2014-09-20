@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="Bootstrap/Forms">
+  <template name="bs:form:inline" value="&lt;form class=&quot;form-inline&quot; role=&quot;form&quot;&gt;&#10;    $END$&#10;&lt;/form&gt;" description="Bootstrap inline form markup" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:form:horizontal" value="&lt;form class=&quot;form-horizontal&quot; role=&quot;form&quot;&gt;&#10;    $END$&#10;&lt;/form&gt;" description="Bootstrap horizontal form markup" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:text" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;    &lt;input type=&quot;text&quot; class=&quot;form-control&quot; name=&quot;$name$&quot; placeholder=&quot;$label$&quot;&gt;&#10;&lt;/div&gt;" description="Bootstrap input text" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:password" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;    &lt;input type=&quot;password&quot; class=&quot;form-control&quot; name=&quot;$name$&quot; placeholder=&quot;$label$&quot;&gt;&#10;&lt;/div&gt;" description="Bootstrap input password" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:form:login" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$email_name$&quot;&gt;$email_label$&lt;/label&gt;&#10;    &lt;input type=&quot;email&quot; class=&quot;form-control&quot; id=&quot;$email_name$&quot; name=&quot;$email_name$&quot; placeholder=&quot;Enter email&quot;&gt;&#10;&lt;/div&gt;&#10;&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$password_name$&quot;&gt;$password_label$&lt;/label&gt;&#10;    &lt;input type=&quot;password&quot; class=&quot;form-control&quot; id=&quot;$password_name$&quot; name=&quot;$password_name$&quot; placeholder=&quot;Password&quot;&gt;&#10;&lt;/div&gt;" description="Bootstrap login form password" toReformat="false" toShortenFQNames="true">
+    <variable name="email_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="email_label" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="password_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="password_label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:datetime" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;    &lt;input type=&quot;datetime&quot; class=&quot;form-control&quot; name=&quot;$name$&quot; placeholder=&quot;$label$&quot;&gt;&#10;&lt;/div&gt;" description="Bootstrap input datetime" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:datetime-local" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;    &lt;input type=&quot;datetime-local&quot; class=&quot;form-control&quot; name=&quot;$name$&quot; placeholder=&quot;$label$&quot;&gt;&#10;&lt;/div&gt;" description="Bootstrap input datetime local" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:date" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;    &lt;input type=&quot;date&quot; class=&quot;form-control&quot; name=&quot;$name$&quot; placeholder=&quot;$label$&quot;&gt;&#10;&lt;/div&gt;" description="Bootstrap input date" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:month" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;    &lt;input type=&quot;month&quot; class=&quot;form-control&quot; name=&quot;$name$&quot; placeholder=&quot;$label$&quot;&gt;&#10;&lt;/div&gt;" description="Bootstrap input month" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:time" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;    &lt;input type=&quot;time&quot; class=&quot;form-control&quot; name=&quot;$name$&quot; placeholder=&quot;$label$&quot;&gt;&#10;&lt;/div&gt;" description="Bootstrap input time" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:week" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;    &lt;input type=&quot;week&quot; class=&quot;form-control&quot; name=&quot;$name$&quot; placeholder=&quot;$label$&quot;&gt;&#10;&lt;/div&gt;" description="Bootstrap input week" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:number" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;    &lt;input type=&quot;number&quot; class=&quot;form-control&quot; name=&quot;$name$&quot; placeholder=&quot;$label$&quot;&gt;&#10;&lt;/div&gt;" description="Bootstrap input number" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:email" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;    &lt;input type=&quot;email&quot; class=&quot;form-control&quot; name=&quot;$name$&quot; placeholder=&quot;$label$&quot;&gt;&#10;&lt;/div&gt;" description="Bootstrap input email" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:url" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;    &lt;input type=&quot;url&quot; class=&quot;form-control&quot; name=&quot;$name$&quot; placeholder=&quot;$label$&quot;&gt;&#10;&lt;/div&gt;" description="Bootstrap input url" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:search" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;    &lt;input type=&quot;search&quot; class=&quot;form-control&quot; name=&quot;$name$&quot; placeholder=&quot;$label$&quot;&gt;&#10;&lt;/div&gt;" description="Bootstrap input search" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:tel" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;    &lt;input type=&quot;tel&quot; class=&quot;form-control&quot; name=&quot;$name$&quot; placeholder=&quot;$label$&quot;&gt;&#10;&lt;/div&gt;" description="Bootstrap input tel" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:color" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;    &lt;input type=&quot;color&quot; class=&quot;form-control&quot; name=&quot;$name$&quot; placeholder=&quot;$label$&quot;&gt;&#10;&lt;/div&gt;" description="Bootstrap input color" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:checkbox" value="&lt;div class=&quot;checkbox&quot;&gt;&#10;    &lt;label&gt;&#10;      &lt;input type=&quot;checkbox&quot;&gt; $END$&#10;    &lt;/label&gt;&#10;&lt;/div&gt;" description="Bootstrap input checkbox" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:btn:submit" value="&lt;button type=&quot;submit&quot; class=&quot;btn btn-default&quot;&gt;$END$&lt;/button&gt;" description="Bootstrap button submit" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:file" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;    &lt;input type=&quot;file&quot; id=&quot;$name$&quot;&gt;&#10;    &lt;p class=&quot;help-block&quot;&gt;$help$&lt;/p&gt;&#10;  &lt;/div&gt;" description="Bootstrap input file" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="help" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:textarea" value="&lt;textarea class=&quot;form-control&quot; rows=&quot;3&quot;&gt;&lt;/textarea&gt;" description="Bootstrap input textarea" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:checkbox:disabled" value="&lt;div class=&quot;checkbox disabled&quot;&gt;&#10;  &lt;label&gt;&#10;    &lt;input type=&quot;checkbox&quot; value=&quot;$value$&quot; disabled&gt;&#10;    $END$&#10;  &lt;/label&gt;&#10;&lt;/div&gt;" description="Bootstrap input checkbox (disabled)" toReformat="false" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:radio" value="&lt;div class=&quot;radio&quot;&gt;&#10;  &lt;label&gt;&#10;    &lt;input type=&quot;radio&quot; value=&quot;$value$&quot;&gt;&#10;    $END$&#10;  &lt;/label&gt;&#10;&lt;/div&gt;" description="Bootstrap input radio" toReformat="false" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:radio:disabled" value="&lt;div class=&quot;radio disabled&quot;&gt;&#10;  &lt;label&gt;&#10;    &lt;input type=&quot;radio&quot; value=&quot;$value$&quot; checked&gt;&#10;    $END$&#10;  &lt;/label&gt;&#10;&lt;/div&gt;" description="Bootstrap input radio (disabled)" toReformat="false" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:checkbox:inline" value="&lt;label class=&quot;checkbox-inline&quot;&gt;&#10;  &lt;input type=&quot;checkbox&quot; value=&quot;$value$&quot;&gt; $END$&#10;&lt;/label&gt;" description="Bootstrap input checkbox inline" toReformat="false" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:radio:inline" value="&lt;label class=&quot;radio-inline&quot;&gt;&#10;  &lt;input type=&quot;radio&quot; value=&quot;$value$&quot;&gt; $END$&#10;&lt;/label&gt;" description="Bootstrap input radio inline" toReformat="false" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:select" value="&lt;select class=&quot;form-control&quot;&gt;&#10;  &lt;option&gt;$END$&lt;/option&gt;  &#10;&lt;/select&gt;" description="Bootstrap select dropdown" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:select:multiple" value="&lt;select class=&quot;form-control&quot; multiple&gt;&#10;  &lt;option&gt;$END$&lt;/option&gt;  &#10;&lt;/select&gt;" description="Bootstrap select dropdown multiple" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:color:disabled" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;    &lt;input type=&quot;color&quot; class=&quot;form-control&quot; name=&quot;$name$&quot; placeholder=&quot;$label$&quot; disabled&gt;&#10;&lt;/div&gt;" description="Bootstrap input color (disabled)" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:date:disabled" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;    &lt;input type=&quot;date&quot; class=&quot;form-control&quot; name=&quot;$name$&quot; placeholder=&quot;$label$&quot; disabled&gt;&#10;&lt;/div&gt;" description="Bootstrap input date (disabled)" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:datetime:disabled" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;    &lt;input type=&quot;datetime&quot; class=&quot;form-control&quot; name=&quot;$name$&quot; placeholder=&quot;$label$&quot; disabled&gt;&#10;&lt;/div&gt;" description="Bootstrap input datetime (disabled)" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:datetime-local:disabled" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;    &lt;input type=&quot;datetime-local&quot; class=&quot;form-control&quot; name=&quot;$name$&quot; placeholder=&quot;$label$&quot; disabled&gt;&#10;&lt;/div&gt;" description="Bootstrap input datetime local (disabled)" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:email:disabled" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;    &lt;input type=&quot;email&quot; class=&quot;form-control&quot; name=&quot;$name$&quot; placeholder=&quot;$label$&quot; disabled&gt;&#10;&lt;/div&gt;" description="Bootstrap input email (disabled)" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:month:disabled" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;    &lt;input type=&quot;month&quot; class=&quot;form-control&quot; name=&quot;$name$&quot; placeholder=&quot;$label$&quot; disabled&gt;&#10;&lt;/div&gt;" description="Bootstrap input month (disabled)" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:number:disabled" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;    &lt;input type=&quot;number&quot; class=&quot;form-control&quot; name=&quot;$name$&quot; placeholder=&quot;$label$&quot; disabled&gt;&#10;&lt;/div&gt;" description="Bootstrap input number (disabled)" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:search:disabled" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;    &lt;input type=&quot;search&quot; class=&quot;form-control&quot; name=&quot;$name$&quot; placeholder=&quot;$label$&quot; disabled&gt;&#10;&lt;/div&gt;" description="Bootstrap input search (disabled)" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:password:disabled" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;    &lt;input type=&quot;password&quot; class=&quot;form-control&quot; name=&quot;$name$&quot; placeholder=&quot;$label$&quot; disabled&gt;&#10;&lt;/div&gt;" description="Bootstrap input password (disabled)" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:tel:disabled" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;    &lt;input type=&quot;tel&quot; class=&quot;form-control&quot; name=&quot;$name$&quot; placeholder=&quot;$label$&quot; disabled&gt;&#10;&lt;/div&gt;" description="Bootstrap input tel (disabled)" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:text:disabled" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;    &lt;input type=&quot;text&quot; class=&quot;form-control&quot; name=&quot;$name$&quot; placeholder=&quot;$label$&quot; disabled&gt;&#10;&lt;/div&gt;" description="Bootstrap input text (disabled)" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:time:disabled" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;    &lt;input type=&quot;time&quot; class=&quot;form-control&quot; name=&quot;$name$&quot; placeholder=&quot;$label$&quot; disabled&gt;&#10;&lt;/div&gt;" description="Bootstrap input time (disabled)" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:url:disabled" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;    &lt;input type=&quot;url&quot; class=&quot;form-control&quot; name=&quot;$name$&quot; placeholder=&quot;$label$&quot; disabled&gt;&#10;&lt;/div&gt;" description="Bootstrap input url (disabled)" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:input:week:disabled" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;    &lt;input type=&quot;week&quot; class=&quot;form-control&quot; name=&quot;$name$&quot; placeholder=&quot;$label$&quot; disabled&gt;&#10;&lt;/div&gt;" description="Bootstrap input week (disabled)" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:help-block" value="&lt;span class=&quot;help-block&quot;&gt;$END$&lt;/span&gt;" description="Bootstrap help block" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
+
