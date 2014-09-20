@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="Bootstrap/Navs">
+  <template name="bs:nav:tabs" value="&lt;ul class=&quot;nav nav-tabs&quot; role=&quot;tablist&quot;&gt;&#10;  &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;$url$&quot;&gt;$END$&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;" description="Bootstrap nav tabs" toReformat="false" toShortenFQNames="true">
+    <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:nav:pills" value="&lt;ul class=&quot;nav nav-pills&quot;&gt;&#10;    &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;$url$&quot;&gt;$END$&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;" description="Bootstrap nav pills" toReformat="false" toShortenFQNames="true">
+    <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:nav:pills:stack" value="&lt;ul class=&quot;nav nav-pills nav-stacked&quot;&gt;&#10;    &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;$url$&quot;&gt;$END$&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;" description="Bootstrap nav pills stacked" toReformat="false" toShortenFQNames="true">
+    <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:nav:pills:justified" value="&lt;ul class=&quot;nav nav-pills nav-justified&quot;&gt;&#10;    &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;$url$&quot;&gt;$END$&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;" description="Bootstrap nav pills justified" toReformat="false" toShortenFQNames="true">
+    <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:nav:tabs:justified" value="&lt;ul class=&quot;nav nav-tabs nav-justified&quot; role=&quot;tablist&quot;&gt;&#10;  &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;$url$&quot;&gt;$END$&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;" description="Bootstrap nav tabs justified" toReformat="false" toShortenFQNames="true">
+    <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:nav:item" value="&lt;li&gt;&lt;a href=&quot;$url$&quot;&gt;$END$&lt;/a&gt;&lt;/li&gt;" description="Bootstrap nav item" toReformat="false" toShortenFQNames="true">
+    <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:nav:item:active" value="&lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;$url$&quot;&gt;$END$&lt;/a&gt;&lt;/li&gt;" description="Bootstrap nav item active" toReformat="false" toShortenFQNames="true">
+    <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:nav:item:disabled" value="&lt;li class=&quot;disabled&quot;&gt;&lt;a href=&quot;$url$&quot;&gt;$END$&lt;/a&gt;&lt;/li&gt;" description="Bootstrap nav item disabled" toReformat="false" toShortenFQNames="true">
+    <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:nav:item:dropdown" value="&lt;li class=&quot;dropdown&quot;&gt;&#10;    &lt;a class=&quot;dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; href=&quot;#&quot;&gt;&#10;      $name$ &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;&#10;    &lt;/a&gt;&#10;    &lt;ul class=&quot;dropdown-menu&quot; role=&quot;menu&quot;&gt;&#10;        &lt;li&gt;$END$&lt;/li&gt;&#10;    &lt;/ul&gt;&#10; &lt;/li&gt;" description="Bootstrap nav item dropdown" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
+
