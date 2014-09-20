@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="Bootstrap/Pagination">
+  <template name="bs:page" value="&lt;ul class=&quot;pagination&quot;&gt;&#10;    &lt;li&gt;&lt;a href=&quot;$url$&quot;&gt;$END$&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;" description="Bootstrap pagination" toReformat="false" toShortenFQNames="true">
+    <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:page:item" value="&lt;li&gt;&lt;a href=&quot;$url$&quot;&gt;$END$&lt;/a&gt;&lt;/li&gt;" description="Bootstrap pagination item" toReformat="false" toShortenFQNames="true">
+    <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:page:item:active" value="&lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;$url$&quot;&gt;$END$&lt;/a&gt;&lt;/li&gt;" description="Bootstrap pagination item active" toReformat="false" toShortenFQNames="true">
+    <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:page:item:disabled" value="&lt;li class=&quot;disabled&quot;&gt;&lt;a href=&quot;$url$&quot;&gt;$END$&lt;/a&gt;&lt;/li&gt;" description="Bootstrap pagination item disabled" toReformat="false" toShortenFQNames="true">
+    <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:pager" value="&lt;ul class=&quot;pager&quot;&gt;&#10;  &lt;li&gt;&lt;a href=&quot;$previous_url$&quot;&gt;$previous$&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li&gt;&lt;a href=&quot;$next_url$&quot;&gt;$next$&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;" description="Bootstrap pager" toReformat="false" toShortenFQNames="true">
+    <variable name="previous_url" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="previous" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="next_url" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="next" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:pager:aligned" value="&lt;ul class=&quot;pager&quot;&gt;&#10;  &lt;li class=&quot;previous&quot;&gt;&lt;a href=&quot;$previous_url$&quot;&gt;$previous$&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li class=&quot;next&quot;&gt;&lt;a href=&quot;$next_url$&quot;&gt;$next$&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;" description="Bootstrap pager aligned" toReformat="false" toShortenFQNames="true">
+    <variable name="previous_url" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="previous" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="next_url" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="next" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
+
