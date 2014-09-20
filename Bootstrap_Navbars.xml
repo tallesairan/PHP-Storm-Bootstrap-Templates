@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="Bootstrap/Navbars">
+  <template name="bs:navbar" value="&lt;nav class=&quot;navbar navbar-default&quot; role=&quot;navigation&quot;&gt;&#10;    $END$&#10;&lt;/nav&gt;" description="Bootstrap navbar" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:navbar:btn" value="&lt;button type=&quot;button&quot; class=&quot;btn btn-default navbar-btn&quot;&gt;$END$&lt;/button&gt;" description="Bootstrap navbar button" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:navbar:form" value="&lt;form class=&quot;navbar-form navbar-left&quot; role=&quot;search&quot;&gt;&#10;  &lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;input type=&quot;text&quot; class=&quot;form-control&quot; placeholder=&quot;Search&quot;&gt;&#10;  &lt;/div&gt;&#10;  &lt;button type=&quot;submit&quot; class=&quot;btn btn-default&quot;&gt;Submit&lt;/button&gt;&#10;&lt;/form&gt;" description="Bootstrap navbar form" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:navbar:text" value="&lt;p class=&quot;navbar-text&quot;&gt;$END$&lt;/p&gt;" description="Bootstrap navbar text" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:navbar:link" value="&lt;a href=&quot;$url$&quot; class=&quot;navbar-link&quot;&gt;$END$&lt;/a&gt;" description="Bootstrap navbar link" toReformat="false" toShortenFQNames="true">
+    <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:navbar:top" value="&lt;nav class=&quot;navbar navbar-default navbar-fixed-top&quot; role=&quot;navigation&quot;&gt;&#10;    $END$&#10;&lt;/nav&gt;" description="Bootstrap navbar fixed top" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:navbar:bottom" value="&lt;nav class=&quot;navbar navbar-default navbar-fixed-bottom&quot; role=&quot;navigation&quot;&gt;&#10;    $END$&#10;&lt;/nav&gt;" description="Bootstrap navbar fixed bottom" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:navbar:static" value="&lt;nav class=&quot;navbar navbar-default navbar-static-top&quot; role=&quot;navigation&quot;&gt;&#10;    $END$&#10;&lt;/nav&gt;" description="Bootstrap navbar static top" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:navbar:inverse" value="&lt;nav class=&quot;navbar navbar-inverse&quot; role=&quot;navigation&quot;&gt;&#10;    $END$&#10;&lt;/nav&gt;" description="Bootstrap navbar inverse" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
+
