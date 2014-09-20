@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="Bootstrap/ListGroups">
+  <template name="bs:list:group" value="&lt;ul class=&quot;list-group&quot;&gt;&#10;    &lt;li class=&quot;list-group-item&quot;&gt;$END$&lt;/li&gt;&#10;&lt;/ul&gt;" description="Bootstrap list group" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:list:item" value="&lt;li class=&quot;list-group-item&quot;&gt;$END$&lt;/li&gt;" description="Bootstrap list group item" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
+
