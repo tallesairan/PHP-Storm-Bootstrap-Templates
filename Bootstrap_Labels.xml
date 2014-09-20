@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="Bootstrap/Labels">
+  <template name="bs:label" value="&lt;span class=&quot;label label-default&quot;&gt;$END$&lt;/span&gt;" description="Bootstrap label default" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:label:primary" value="&lt;span class=&quot;label label-primary&quot;&gt;$END$&lt;/span&gt;" description="Bootstrap label primary" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:label:success" value="&lt;span class=&quot;label label-success&quot;&gt;$END$&lt;/span&gt;" description="Bootstrap label success" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:label:info" value="&lt;span class=&quot;label label-info&quot;&gt;$END$&lt;/span&gt;" description="Bootstrap label info" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:label:warning" value="&lt;span class=&quot;label label-warning&quot;&gt;$END$&lt;/span&gt;" description="Bootstrap label warning" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:label:danger" value="&lt;span class=&quot;label label-danger&quot;&gt;$END$&lt;/span&gt;" description="Bootstrap label danger" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
+
