@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="Bootstrap/Page Header">
+  <template name="bs:page-header" value="&lt;div class=&quot;page-header&quot;&gt;&#10;  &lt;h1&gt;$title$ &lt;small&gt;$subtitle$&lt;/small&gt;&lt;/h1&gt;&#10;&lt;/div&gt;" description="Bootstrap page header" toReformat="false" toShortenFQNames="true">
+    <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="subtitle" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
+
