@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="Bootstrap/Media">
+  <template name="bs:media" value="&lt;div class=&quot;media&quot;&gt;&#10;  &lt;a class=&quot;pull-left&quot; href=&quot;$link$&quot;&gt;&#10;    &lt;img class=&quot;media-object&quot; src=&quot;$img$&quot; alt=&quot;$alt$&quot;&gt;&#10;  &lt;/a&gt;&#10;  &lt;div class=&quot;media-body&quot;&gt;&#10;    &lt;h4 class=&quot;media-heading&quot;&gt;$heading$&lt;/h4&gt;&#10;    $END$&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Bootstrap media" toReformat="false" toShortenFQNames="true">
+    <variable name="link" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="img" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="alt" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="heading" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:media:list" value="&lt;ul class=&quot;media-list&quot;&gt;&#10;  &lt;li class=&quot;media&quot;&gt;&#10;    &lt;a class=&quot;pull-left&quot; href=&quot;$link$&quot;&gt;&#10;      &lt;img class=&quot;media-object&quot; src=&quot;$img$&quot; alt=&quot;$alt$&quot;&gt;&#10;    &lt;/a&gt;&#10;    &lt;div class=&quot;media-body&quot;&gt;&#10;      &lt;h4 class=&quot;media-heading&quot;&gt;$heading$&lt;/h4&gt;&#10;      $END$&#10;    &lt;/div&gt;&#10;  &lt;/li&gt;&#10;&lt;/ul&gt;" description="Bootstrap media list" toReformat="false" toShortenFQNames="true">
+    <variable name="link" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="img" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="alt" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="heading" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bs:media:list:item" value="&lt;li class=&quot;media&quot;&gt;&#10;    &lt;a class=&quot;pull-left&quot; href=&quot;$link$&quot;&gt;&#10;      &lt;img class=&quot;media-object&quot; src=&quot;$img$&quot; alt=&quot;$alt$&quot;&gt;&#10;    &lt;/a&gt;&#10;    &lt;div class=&quot;media-body&quot;&gt;&#10;      &lt;h4 class=&quot;media-heading&quot;&gt;$heading$&lt;/h4&gt;&#10;      $END$&#10;    &lt;/div&gt;&#10;  &lt;/li&gt;" description="Bootstrap media list item" toReformat="false" toShortenFQNames="true">
+    <variable name="link" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="img" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="alt" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="heading" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
+
